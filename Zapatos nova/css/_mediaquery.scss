@@ -1,0 +1,207 @@
+@media screen and (max-width: 880px){
+    header {
+        margin: 20px;
+        .logo {
+            height: 8px;
+        }
+        .menu {
+            .enlace {
+                display: none;
+            }
+            .enlace-btn {
+                font-size: 12px;
+            }
+        }
+    }
+    main {
+        margin: 0;
+            .hero {
+            background: transparent url(../img/hero.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            vertical-align: top;
+            margin: 0 auto;
+            overflow: hidden;
+
+            .titulo {
+                h1 {
+                    font-size: 55px;
+                    line-height: 60px;
+                    margin: 12px 8px;
+                }
+            
+            }
+         }
+         .container {
+             display: inline-block;
+             position: relative;
+             margin: 30px;
+             width: 90%;
+             overflow: hidden;
+            
+             .presentacion {
+                font-size: 24px;
+                 text-align: left;
+                width: 100%;
+                
+                }
+                .descripcion {
+                    font-size: 16px;
+                     margin-left: 0;
+                    width: 100%;
+                }
+         }
+        .galeria {
+            .galeria-1, 
+            .galeria-2 {
+                width: 100%;
+                align-items: center;
+                margin-left: 35px;
+            }
+ 
+   
+        }
+
+       
+
+         .opiniones .card {
+             display: block;
+             margin: 20px auto;
+             width: 90%;
+
+            
+        }
+    }
+    footer {
+        width: 90%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a {
+            .logo-footer {
+                margin: 10px auto;
+               
+            }
+        }
+        
+        .redes { 
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px 0;
+              
+            
+        }
+        .desarrollo {
+            margin-left: 0;
+
+        }
+    }
+
+}
+@media screen and (max-width: 480px){
+    header {
+        margin: 20px;
+        .logo {
+            height: 8px;
+        }
+        .menu {
+            .enlace {
+                display: none;
+            }
+            .enlace-btn {
+                font-size: 12px;
+            }
+        }
+    }
+    main {
+        margin: 0;
+            .hero {
+            background: transparent url(../img/hero.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            vertical-align: top;
+            margin: 0 auto;
+            overflow: hidden;
+
+            .titulo {
+                h1 {
+                    font-size: 30px;
+                    line-height: 34px;
+                    margin: 8px 6px;
+                    letter-spacing: -0.6px;
+                }
+            
+            }
+         }
+         .container {
+             display: inline-block;
+             position: relative;
+             align-items: center;
+             margin: 30px;
+             width: 90%;
+             overflow: hidden;
+            
+             .presentacion {
+                font-size: 18px;
+                 text-align: left;
+                width: 100%;
+                
+                }
+                .descripcion {
+                    font-size: 12px;
+                     margin-left: 0;
+                    width: 100%;
+                }
+         }
+        .galeria {
+            .galeria-1, 
+            .galeria-2 {
+                width: 100%;
+                align-items: center;
+                margin-left: 35px;
+            }
+ 
+   
+        }
+
+       
+
+         .opiniones .card {
+             display: block;
+             margin: 20px auto;
+             width: 90%;
+
+            
+        }
+    }
+    footer {
+        width: 90%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a {
+            .logo-footer {
+                margin: 10px auto;
+               
+            }
+        }
+        
+        .redes { 
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 40px 0;
+              
+            
+        }
+        .desarrollo {
+            margin-left: 0;
+
+        }
+    }
+}
