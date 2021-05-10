@@ -214,6 +214,25 @@ footer {
       height: 14px;
       vertical-align: middle; }
 
+@media screen and (max-width: 1100px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer div {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    footer a .logo-footer {
+      margin: 10px auto; }
+    footer .redes {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      margin: 20px 0; }
+    footer .desarrollo {
+      margin-left: 0; } }
+
 @media screen and (max-width: 880px) {
   header {
     margin: 20px; }
@@ -229,8 +248,9 @@ footer {
       background: transparent url(../img/hero.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
+      background-size: cover;
       vertical-align: top;
+      width: 100%;
       margin: 0 auto;
       overflow: hidden; }
       main .hero .titulo h1 {
@@ -259,22 +279,7 @@ footer {
     main .opiniones .card {
       display: block;
       margin: 20px auto;
-      width: 90%; }
-  footer {
-    width: 90%;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    footer a .logo-footer {
-      margin: 10px auto; }
-    footer .redes {
-      width: 50%;
-      display: flex;
-      justify-content: space-evenly;
-      margin: 10px 0; }
-    footer .desarrollo {
-      margin-left: 0; } }
+      width: 90%; } }
 
 @media screen and (max-width: 480px) {
   header {
@@ -294,7 +299,8 @@ footer {
       background-size: contain;
       vertical-align: top;
       margin: 0 auto;
-      overflow: hidden; }
+      overflow: hidden;
+      height: 18em; }
       main .hero .titulo h1 {
         font-size: 30px;
         line-height: 34px;
@@ -318,12 +324,11 @@ footer {
     main .galeria .galeria-1,
     main .galeria .galeria-2 {
       width: 100%;
-      align-items: center;
-      margin-left: 35px; }
-    main .opiniones .card {
-      display: block;
-      margin: 20px auto;
-      width: 90%; }
+      align-items: center; }
+    main .clt .opiniones {
+      flex-direction: column; }
+      main .clt .opiniones .card {
+        width: 100%; }
   footer {
     width: 90%;
     margin: 20px;

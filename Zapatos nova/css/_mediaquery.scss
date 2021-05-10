@@ -1,3 +1,37 @@
+@media screen and (max-width: 1100px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div {
+            display: flex;
+            flex-direction: column;
+            // align-content: center;
+            text-align: center;            
+        }
+        a {
+            .logo-footer {
+                margin: 10px auto;
+               
+            }
+        }
+        
+        .redes { 
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            margin: 20px 0;
+           
+              
+            
+        }
+        .desarrollo {
+            margin-left: 0;
+
+        }
+    }
+}
+
 @media screen and (max-width: 880px){
     header {
         margin: 20px;
@@ -19,8 +53,9 @@
             background: transparent url(../img/hero.png);
             background-repeat: no-repeat;
             background-position: center;
-            background-size: contain;
+            background-size: cover;
             vertical-align: top;
+            width: 100%;
             margin: 0 auto;
             overflow: hidden;
 
@@ -73,32 +108,32 @@
             
         }
     }
-    footer {
-        width: 90%;
-        margin: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        a {
-            .logo-footer {
-                margin: 10px auto;
+    // footer {
+    //     width: 90%;
+    //     margin: 20px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     a {
+    //         .logo-footer {
+    //             margin: 10px auto;
                
-            }
-        }
+    //         }
+    //     }
         
-        .redes { 
-            width: 50%;
-            display: flex;
-            justify-content: space-evenly;
-            margin: 10px 0;
+    //     .redes { 
+    //         width: 50%;
+    //         display: flex;
+    //         justify-content: space-evenly;
+    //         margin: 10px 0;
               
             
-        }
-        .desarrollo {
-            margin-left: 0;
+    //     }
+    //     .desarrollo {
+    //         margin-left: 0;
 
-        }
-    }
+    //     }
+    // }
 
 }
 @media screen and (max-width: 480px){
@@ -126,6 +161,7 @@
             vertical-align: top;
             margin: 0 auto;
             overflow: hidden;
+            height: 18em;
 
             .titulo {
                 h1 {
@@ -162,20 +198,24 @@
             .galeria-2 {
                 width: 100%;
                 align-items: center;
-                margin-left: 35px;
+               
             }
  
    
         }
 
        
+        .clt {
 
-         .opiniones .card {
-             display: block;
-             margin: 20px auto;
-             width: 90%;
-
-            
+            .opiniones {
+                flex-direction: column;
+                               
+                
+                .card {
+                   width: 100%;
+                
+                }
+            }
         }
     }
     footer {
