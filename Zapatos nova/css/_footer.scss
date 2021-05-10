@@ -1,24 +1,27 @@
 footer{
     margin: 40px 17%;
     display: flex;
-   
-    .logo-footer {
-        width: 100px;
-        align-items:flex-start;
-        margin: 10px 0;
-    }
-    .derechos {
-        font-size: 12px;
-        text-align: center;
-        justify-content: flex-start;
-        margin: 10px;
-       
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    div{
+        display: flex;
+        justify-content: center;
+        .logo-footer {
+            width: 100px;
+           
+        }
+        .derechos {
+            font-size: 10px;
+            text-align: center;
+            margin: 10px;
+        }
     }
     .redes{
-        width: 200px;
-        margin: 10px;
-        margin-left: 70px;
-        
+        margin-left: -150px;
+        align-self: center;
+        justify-self: center;
 
         .fab {
             color: #000;
@@ -26,10 +29,8 @@ footer{
         }
     }
     .desarrollo {
-        font-size: 12px;
+        font-size: 10px;
         text-align: left;
-        width: 200px;
-        margin-left: 200px;//seguro hay otra manera mas sencilla de acomodar estos elemetos, estoy seguro que no es lo mas correcto
         
         img{
             height: 14px;
