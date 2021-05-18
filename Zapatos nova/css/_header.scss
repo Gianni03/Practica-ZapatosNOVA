@@ -1,25 +1,29 @@
 header {
     margin: 30px 17%;
     overflow: hidden;
-   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.logo {
-    float: left;
-}
+
 .menu {
     list-style: none;
     padding: 0;
     margin: 10px auto;
-    float: right;
-   
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
     li {
         float: right;
     }
+
     a {
         text-decoration: none;
         padding: 10px;
         margin-right: 10px;
     }
+
     .enlace {
         right: 5px;
         font-size: 14px;
@@ -28,6 +32,7 @@ header {
         display: inline-block;
         position: relative;
     }
+
     // animacion de underline sacada de https://www.30secondsofcode.org/css/s/hover-underline-animation
     .enlace::after {
         content: '';
@@ -41,12 +46,13 @@ header {
         transform-origin: bottom right;
         transition: transform 0.25s ease-out;
     }
+
     .enlace:hover::after {
         transform: scaleX(1);
         transform-origin: bottom left;
     }
-      
-    .enlace-btn{
+
+    .enlace-btn {
         font-size: 14px;
         color: #fff;
         font-weight: 800;
@@ -55,6 +61,7 @@ header {
         display: inline-block;
         position: relative;
     }
+
     .enlace-btn::after {
         content: '';
         position: absolute;
@@ -67,14 +74,16 @@ header {
         transform-origin: bottom right;
         transition: transform 0.25s ease-out;
     }
+
     .enlace-btn:hover {
         background-color: #fff;
         color: #000;
     }
+
     // quise hacer el mismo efecto con el background ya que desarece muy rápido, pero no salio(todavía)
     .enlace-btn:hover::after {
         transform: scaleX(1);
         transform-origin: bottom left;
-        
+
     }
 }

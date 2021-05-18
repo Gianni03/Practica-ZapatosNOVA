@@ -7,16 +7,18 @@
 
 header {
   margin: 30px 17%;
-  overflow: hidden; }
-
-.logo {
-  float: left; }
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
 
 .menu {
   list-style: none;
   padding: 0;
   margin: 10px auto;
-  float: right; }
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse; }
   .menu li {
     float: right; }
   .menu a {
@@ -236,8 +238,6 @@ footer {
 @media screen and (max-width: 880px) {
   header {
     margin: 20px; }
-    header .logo {
-      height: 8px; }
     header .menu .enlace {
       display: none; }
     header .menu .enlace-btn {
@@ -284,8 +284,6 @@ footer {
 @media screen and (max-width: 480px) {
   header {
     margin: 20px; }
-    header .logo {
-      height: 8px; }
     header .menu .enlace {
       display: none; }
     header .menu .enlace-btn {
